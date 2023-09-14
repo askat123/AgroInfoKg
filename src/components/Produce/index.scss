@@ -1,0 +1,45 @@
+#produce {
+  .produce {
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      h1 {
+        color: #000;
+        font-family: Monsterrat, sans-serif;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    &--group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__block {
+        width: 358px;
+        height: 320px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        h1 {
+          text-align: center;
+          color: #fff;
+          font-family: Inter, sans-serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          background: #0000006d;
+          width: 100%;
+          -webkit-box-shadow: -1px -22px 23px -5px rgba(18, 18, 18, 0.6);
+          -moz-box-shadow: -1px -22px 23px -5px rgba(15, 16, 17, 0.6);
+          box-shadow: -1px -22px 23px -5px rgba(0, 0, 0, 0.6);
+          border-radius: 0 0 20px 20px;
+        }
+      }
+    }
+  }
+}
